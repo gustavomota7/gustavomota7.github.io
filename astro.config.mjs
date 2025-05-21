@@ -18,8 +18,8 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'mac0350',
-					autogenerate: { directory: 'mac0350' },
+					label: 'MAC0350',
+					autogenerate: { directory: 'MAC0350' },
 				},
 			],
 		}),
