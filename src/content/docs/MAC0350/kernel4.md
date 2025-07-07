@@ -1,5 +1,5 @@
 ---
-title: Week 6 - Discussing the patch 
+title: Week 7 - Discussing the patch 
 description: Entry on the fourth part of contibuting to the linux kernel.
 ---
 

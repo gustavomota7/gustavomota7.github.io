@@ -1,5 +1,5 @@
 ---
-title: Week 5- Making a first patch
+title: Week 5 - Making a first patch
 description: Entry on the second part of contibuting to the linux kernel.
 ---
 

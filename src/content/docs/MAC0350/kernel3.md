@@ -1,5 +1,5 @@
 ---
-title: Week 5 - Sending our first patch 
+title: Week 6 - Sending our first patch 
 description: Entry on the third part of contibuting to the linux kernel.
 ---
 
