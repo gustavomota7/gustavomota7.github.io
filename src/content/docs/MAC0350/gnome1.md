@@ -17,6 +17,7 @@ Gtk itself. We read the discussion on the issue page, and saw that other contrib
 
 ### [Issue #2] Network panel: connection editor too small when creating new VPN
 >[Issue 2884](https://gitlab.gnome.org/GNOME/gnome-control-center/-/issues/2884)
+
 ![bug](images/gnome-network-mr.png)
 
 For this problem, we tried to understand how this settings work. We identified that in the current version most of the problem was caused by a misplaced field in one type of VPN configurations. So, [we made a MR](https://gitlab.gnome.org/GNOME/NetworkManager-openconnect/-/merge_requests/76) to fix that, although the project itself seems abandoned.
