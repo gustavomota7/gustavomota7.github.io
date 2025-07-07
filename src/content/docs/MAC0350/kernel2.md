@@ -1,5 +1,5 @@
 ---
-title: Making a first patch
+title: Week 5- Making a first patch
 description: Entry on the second part of contibuting to the linux kernel.
 ---
 
@@ -13,7 +13,7 @@ our modifications.
 To remove the duplicated code, we decided to consolidate the functionality of both `sca3000_read_data()` and `sca3000_read_data_short()` inside
 the `sca3000_read_data()` one.
 
-```
+```c
 static int sca3000_read_data(struct sca3000_state *st,
                  u8 reg_address_high,
                  int len)

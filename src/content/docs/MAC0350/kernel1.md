@@ -1,5 +1,5 @@
 ---
-title: Finding patch candidates
+title: Week 4 - Finding patch candidates
 description: Entry on the first part of contibuting to the linux kernel.
 ---
 
@@ -15,7 +15,7 @@ From the list, we searched for good candidates. We settled on three:
 3. Duplicated code in `chemical/sunrise_co2.c` between functions `sunrise_cal_background_write` and `sunrise_cal_factory_write`.
 
 We decided to work on the second, since both functions seemed to have almost identical behavior:
-```
+```c
 // accel/sca3000.c
 static int sca3000_read_data_short(struct sca3000_state *st,
                    u8 reg_address_high,
